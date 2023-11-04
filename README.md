@@ -31,11 +31,10 @@ Examples:
 ## Tech Overview 💻
 **... what tech was used to bring this project to life?**
 
-**
 * React.ts (Frontend)
 * Apollo GraphQl (Backend)
 * SQL (Database)
-* OpenAPI (API) **
+* OpenAPI (API)
 
 Example:
 * FastAPI
