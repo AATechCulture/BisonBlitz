@@ -9,7 +9,7 @@ const LandingPage = (props: Props) => {
   const navigate = useNavigate();
 
   const handleStartClick = () => {
-    navigate('/name-question');
+    navigate('/name-section');
   };
   return (
     <div className='landing-base'>
