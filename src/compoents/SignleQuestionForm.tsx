@@ -16,6 +16,7 @@ type Props = {
   subText: string;
   toRoute: string;
   type?: string;
+  onError: string;
 };
 
 const SignleQuestionForm = (props: Props) => {
@@ -48,7 +49,12 @@ const SignleQuestionForm = (props: Props) => {
 
   console.log(value.length === 0, 'check-me');
   return (
-    <div className='name-section'>
+    <motion.div
+      className='name-section'
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <p className='first-name'>{props.mainText}</p>
       <p className='first-name-subtext'> {props.subText}</p>
       <div
@@ -56,12 +62,7 @@ const SignleQuestionForm = (props: Props) => {
           onceActive && value === '' ? 'wrong-field' : ''
         }`}
       >
-        <motion.div
-          className='inner-form-overlay'
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-        >
+        <div className='inner-form-overlay'>
           <form onSubmit={handleSubmit} className='form-content'>
             <input
               className='form-input'
@@ -76,12 +77,17 @@ const SignleQuestionForm = (props: Props) => {
             />
 
             <button className='clean-button' type='submit'>
-              {value !== '' ? <AiOutlineRightCircle size={30} /> : null}
+              {value !== '' ? (
+                <Link to={props.toRoute}>
+                  <AiOutlineRightCircle size={30} />
+                </Link>
+              ) : null}
             </button>
           </form>
-        </motion.div>
+        </div>
       </div>
-    </div>
+      {onceActive && value === '' && <p>{props.onError}</p>}
+    </motion.div>
   );
 };
 

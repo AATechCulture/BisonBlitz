@@ -13,6 +13,7 @@ const NameSection = (props: Props) => {
         mainText='What is your first name?'
         subText='We use this for your personal experince'
         toRoute='/miles-question'
+        onError='Please enter your first name 😊'
       />
     </div>
   );
