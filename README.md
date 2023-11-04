@@ -20,12 +20,21 @@ Examples:
 ## Project Description 🤯
 **....at lease 3 sentences describing what the project does and how it works**
 
+**"The PLAAN-IT application empowers American Airlines customers to leverage their Advantage miles and determine available travel options. By answering questions about their preferred travel destinations, users receive personalized recommendations. The application then generates a list of destinations accessible through their accrued miles, making trip planning seamless and convenient."**
+
 ## Project Value 💰
 **....at lease 3 sentences describing your target customer and tangible benefits from your solution**
+
+**"Our target customers for the PLAAN-IT application are American Airlines frequent flyers who are Advantage miles holders. These customers seek a user-friendly solution to optimize their travel rewards and are interested in discovering new destinations that align with their interests. With PLAAN-IT, these customers can efficiently utilize their miles, receive personalized travel suggestions, and ultimately enjoy the tangible benefits of discovering and planning exciting trips that cater to their preferences."**
 
 
 ## Tech Overview 💻
 **... what tech was used to bring this project to life?**
+
+*** React.ts (Frontend)
+* Apollo GraphQl (Backend)
+* SQL (Database)
+* OpenAPI (API)**
 
 Example:
 * FastAPI
