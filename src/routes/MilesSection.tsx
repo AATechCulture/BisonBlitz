@@ -1,5 +1,5 @@
 import React from 'react';
-import { SignleQuestionForm } from '../compoents';
+import { SignleQuestionForm } from '../components';
 
 type Props = {};
 

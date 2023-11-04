@@ -2,7 +2,7 @@ import React from 'react';
 
 import '../sass/LandingPage.scss';
 import { Link } from 'react-router-dom';
-import { SignleQuestionForm } from '../compoents';
+import { SignleQuestionForm } from '../components';
 type Props = {};
 
 const NameSection = (props: Props) => {
