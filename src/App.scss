@@ -1,0 +1,144 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container-pic {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/24/American_Airlines%2C_N194AA%2C_Boeing_757-223_%2849593359407%29.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 600px;
+  position: relative;
+  margin-top: 100px;
+}
+
+.info-header {
+  background-color: white;
+  display: flex;
+  position: relative;
+  height: 150px;
+  top: 400px;
+  margin: 0 300px;
+  border-radius: 12px;
+  padding: 100px 100px;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* You can adjust the shadow values as needed */
+}
+
+.question-header {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.val-input {
+  width: 100%;
+  height: 56px;
+  position: relative;
+  padding: 0px 16px;
+  border: 0.5px solid black;
+  border-radius: 4px;
+  font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  background-color: transparent;
+  color: #282828;
+  outline: none;
+  box-shadow: 0px 4px 20px 0px transparent;
+  transition: 0.3s background-color ease-in-out, 0.3s box-shadow ease-in-out,
+    0.1s padding ease-in-out;
+  -webkit-appearance: none;
+}
+.field input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+.field input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+.field input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+.field input:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.info-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --line-stroke: #0074b3;
+  /* --grid-stroke: #00adef; */
+  --line-stroke-width: 1.5;
+  --circle-fill: #00adef;
+  --circle-stroke: #0074b3;
+}
+
+svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  overflow: visible;
+}
+.trailLine {
+  stroke: var(--line-stroke);
+  stroke-width: var(--line-stroke-width);
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 4 10;
+}
+.gridRect {
+  stroke: var(--circle-stroke);
+}
+#grid {
+  opacity: 0.085;
+}
+#glowAlpha {
+  flood-color: var(--circle-stroke);
+}
+.plane {
+  fill: #ccc;
+}
+
+.info-text-header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 2px;
+}
+
+.text-header {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.text-subheader {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+subtext-container {
+  position: relative;
+}
+.next-button {
+  height: 500px;
+  width: 100px;
+  background-color: none;
+  border: 0.5px solid black;
+  border-radius: 12px;
+  position: relative;
+  top: 10px;
+}

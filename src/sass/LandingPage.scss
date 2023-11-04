@@ -1,0 +1,89 @@
+.landing-base {
+  display: flex;
+  flex-direction: row;
+  position: static;
+}
+
+.photo-container {
+  background-image: url(https://static01.nyt.com/images/2020/12/29/us/29boeing-sub/merlin_181767753_59d7cadc-adac-4644-81c2-0e0969d78597-superJumbo.jpg);
+  background-size: cover;
+  background-position: center;
+  flex: 1; /* Let it grow to fill the available space */
+  height: 100vh;
+  flex: 1;
+  position: relative;
+  width: 100px;
+}
+
+.content-container {
+  -webkit-box-align: center;
+  align-items: center;
+  flex: 1 1 0%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 300px;
+  text-align: center;
+  flex-direction: column;
+}
+
+.first-a-name {
+  color: red;
+}
+.second-a-name {
+  color: blue;
+}
+
+.welcome-header {
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.subtext-container {
+  padding: 0 200px;
+  font-size: 20px;
+  position: relative;
+  bottom: 40px;
+}
+
+.get-started-button {
+  color: rgb(255, 255, 255);
+  background-color: rgb(40, 44, 47);
+  border-style: solid;
+  border-width: 0.125rem;
+  border-color: rgb(40, 44, 47);
+  border-radius: 6.25rem;
+  padding: 0.875rem 0px 0.625rem;
+  font-size: 1rem;
+  font-family: GingerOTF, Ginger, Helvetica, sans-serif;
+  line-height: 1.25rem;
+  transition: color 0.4s ease 0s, background-color 0.4s ease 0s,
+    border 0.4s ease 0s, width 0.4s cubic-bezier(0.09, 1, 0.205, 1) 0s;
+  display: inline-block;
+  cursor: pointer;
+  margin-bottom: 4.875rem;
+  width: 16.5rem;
+  padding: 20px;
+}
+
+.line-breaker {
+  color: #d2d2d2;
+
+  width: 300px;
+  margin-top: 40px;
+
+  margin-left: 0;
+}
+
+.open-ai-logo {
+  width: 100px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.powered-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
