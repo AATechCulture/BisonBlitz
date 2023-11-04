@@ -15,6 +15,17 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <svg id="mainSVG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+      <g>
+        <polyline class="trailLine" />
+        <path
+          class="plane"
+          d="M20,13.7v-1.4l-8.6-5.1V3.5c0-1-0.6-3.5-1.4-3.5S8.6,2.4,8.6,3.5v3.7L0,12.2v1.4l8.6-1.8l0.5,5l-2.5,1.9V20
+    l3.5-0.8l3.5,0.8v-1.2L11,16.9l0.5-5L20,13.7z"
+        />
+      </g>
+    </svg>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -26,6 +37,7 @@
     -->
     <title>React App</title>
   </head>
+
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
