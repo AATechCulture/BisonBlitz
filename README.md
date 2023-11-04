@@ -38,7 +38,7 @@ Example:
 * Deontae Smith (AAdvantage No)
 * Ivaneisha Lee (AAdvantage No)
 * Kendall Andrews (AAdvantage No - T3DB082)
-* Sekai Warner (AAdvantage No)
+* Sekai Warner (AAdvantage No - E9HH438)
 
 ### School Name 🏫
 Howard University
