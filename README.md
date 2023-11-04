@@ -5,10 +5,12 @@ This is a repository template containing all the information that needs to accom
 
 Feel free to use any languages or frameworks, but the following information must be filled out before hacking ends.
 ___________
-# Project Name
+# Project Name -> PLAAN-IT
 
 ## Challenge Statement(s) Addressed 🎯
 **...include the challenge statement(s) the project worked to address**
+
+"How can I best utilize my accumulated Advantage miles when I am uncertain about potential travel destinations?"
 
 Examples:
 * How might we decrease the United States chances of alien and monster attacks given what we know from popular alien and monster movies?
