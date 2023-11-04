@@ -33,9 +33,10 @@ Example:
 
 ### ✨ Contributors ✨
 **...tell the world who you and your team are 🙂**
-* Team member X (AAdvantage No)
-* Team member Y (AAdvantage No)
-* Team member Z (AAdvantage No)
+* Deontae Smith (AAdvantage No)
+* Ivaneisha Lee (AAdvantage No)
+* Kendall Andrews (AAdvantage No - T3DB082)
+* Sekai Warner (AAdvantage No)
 
 ### School Name 🏫
 Howard University
