@@ -44,8 +44,8 @@ Example:
 
 ### ✨ Contributors ✨
 **...tell the world who you and your team are 🙂**
-* Deontae Smith (AAdvantage No)
-* Ivaneisha Lee (AAdvantage No)
+* Deontae Smith (AAdvantage No: R3WV396)
+* Ivaneisha Lee (AAdvantage No: M8XF656)
 * Kendall Andrews (AAdvantage No - T3DB082)
 * Sekai Warner (AAdvantage No - E9HH438)
 
