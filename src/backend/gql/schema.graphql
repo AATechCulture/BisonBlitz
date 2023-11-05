@@ -1,0 +1,22 @@
+type Mutation {
+  addUserData(input: UserInput!): [User]
+}
+
+type User {
+  uuid: String!
+  name: String!
+  miles: String!
+  pref: UsersPref!
+}
+
+input UserInput {
+  uuid: String!
+  name: String!
+  miles: String!
+  pref: UsersPref!
+}
+
+type UsersPref {
+  climate: String!
+  distance: String!
+}

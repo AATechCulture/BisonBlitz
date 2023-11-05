@@ -9,15 +9,15 @@ const LandingPage = (props: Props) => {
   const navigate = useNavigate();
 
   const handleStartClick = () => {
-    navigate('/name-section');
+    navigate('/survey:name+section');
   };
   return (
     <div className='landing-base'>
       <div className='photo-container'></div>
       <div className='content-container'>
         <p className='welcome-header'>
-          Welcome to PL<span className='first-a-name'>A</span>
-          <span className='second-a-name'>A</span>N-IT
+          Welcome to PL<span className='second-a-name'>A</span>
+          <span className='first-a-name'>A</span>N-IT
         </p>
         <div className='subtext-container'>
           <p>

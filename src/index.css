@@ -1,8 +1,0 @@
-html {
-  font-family: 'Cormorant Garamond', serif;
-}
-
-div {
-  -webkit-transition: transform 0.45s cubic-bezier(0, 0, 0.21, 1);
-  transition: transform 0.45s cubic-bezier(0, 0, 0.21, 1);
-}

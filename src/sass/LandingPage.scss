@@ -13,6 +13,9 @@
   flex: 1;
   position: relative;
   width: 100px;
+
+  top: 0;
+  right: 0;
 }
 
 .content-container {
@@ -29,10 +32,10 @@
 }
 
 .first-a-name {
-  color: red;
+  color: #df1c23;
 }
 .second-a-name {
-  color: blue;
+  color: #07abe6;
 }
 
 .welcome-header {
@@ -109,7 +112,7 @@
   background-color: rgb(255, 255, 255);
   border: 0.1875rem solid;
   border-color: rgb(67, 78, 100);
-  border-radius: 0.4375rem;
+  border-radius: 50px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -167,4 +170,58 @@
 .form-content {
   display: flex;
   flex-direction: row;
+}
+
+.name-greating {
+  padding: 20px;
+  font-size: 20px;
+}
+
+.card-mut {
+  margin: 1rem;
+  padding: 2rem;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-basis: 16rem;
+  background-color: #ddd;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.mutiple-choice-card-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.card-image {
+  width: 100px;
+  height: 100px;
+}
+
+.clickable-card {
+  cursor: pointer;
+  outline: none;
+  transition: outline 0.3s;
+  &.focus {
+    border-color: #07abe6;
+  }
+}
+
+.trip-screen {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo-found {
+  width: 1200px;
 }

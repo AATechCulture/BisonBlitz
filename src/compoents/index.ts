@@ -1,1 +1,1 @@
-export { SignleQuestionForm } from './SignleQuestionForm';
+export { SingleQuestionForm } from './SingleQuestionForm';

@@ -1,19 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import classnames from 'classnames';
 import '../sass/LandingPage.scss';
-import { Link } from 'react-router-dom';
-import { SignleQuestionForm } from '../compoents';
+import { Link, useNavigate } from 'react-router-dom';
+import { SingleQuestionForm } from '../compoents';
 type Props = {};
 
 const NameSection = (props: Props) => {
   return (
     <div className={'onboarding-section-base'}>
-      <SignleQuestionForm
+      <SingleQuestionForm
         mainText='What is your first name?'
         subText='We use this for your personal experince'
-        toRoute='/miles-question'
+        toRoute='/survey:miles+section'
         onError='Please enter your first name 😊'
+        pref='name'
       />
     </div>
   );

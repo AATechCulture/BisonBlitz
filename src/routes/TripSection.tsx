@@ -1,5 +1,5 @@
 import React from 'react';
-import { SignleQuestionForm } from '../compoents';
+import { SingleQuestionForm } from '../compoents';
 
 type Props = {};
 
