@@ -5,10 +5,12 @@ This is a repository template containing all the information that needs to accom
 
 Feel free to use any languages or frameworks, but the following information must be filled out before hacking ends.
 ___________
-# Project Name
+# Project Name: PLAAN-IT
 
 ## Challenge Statement(s) Addressed 🎯
 **...include the challenge statement(s) the project worked to address**
+
+**"How can I best utilize my accumulated Advantage miles when I am uncertain about potential travel destinations?"**
 
 Examples:
 * How might we decrease the United States chances of alien and monster attacks given what we know from popular alien and monster movies?
@@ -18,12 +20,21 @@ Examples:
 ## Project Description 🤯
 **....at lease 3 sentences describing what the project does and how it works**
 
+**"The PLAAN-IT application empowers American Airlines customers to leverage their Advantage miles and determine available travel options. By answering questions about their preferred travel destinations, users receive personalized recommendations. The application then generates a list of destinations accessible through their accrued miles, making trip planning seamless and convenient."**
+
 ## Project Value 💰
 **....at lease 3 sentences describing your target customer and tangible benefits from your solution**
+
+**"Our target customers for the PLAAN-IT application are American Airlines frequent flyers who are Advantage miles holders. These customers seek a user-friendly solution to optimize their travel rewards and are interested in discovering new destinations that align with their interests. With PLAAN-IT, these customers can efficiently utilize their miles, receive personalized travel suggestions, and ultimately enjoy the tangible benefits of discovering and planning exciting trips that cater to their preferences."**
 
 
 ## Tech Overview 💻
 **... what tech was used to bring this project to life?**
+
+* React.ts (Frontend)
+* Apollo GraphQl (Backend)
+* SQL (Database)
+* OpenAPI (API)
 
 Example:
 * FastAPI
@@ -33,15 +44,16 @@ Example:
 
 ### ✨ Contributors ✨
 **...tell the world who you and your team are 🙂**
-* Team member X (AAdvantage No)
-* Team member Y (AAdvantage No)
-* Team member Z (AAdvantage No)
+* Deontae Smith (AAdvantage No)
+* Ivaneisha Lee (AAdvantage No)
+* Kendall Andrews (AAdvantage No - T3DB082)
+* Sekai Warner (AAdvantage No - E9HH438)
 
 ### School Name 🏫
-The ABC School
+Howard University
 
 ### Team Name 🏷
-Coding Costars
+Bison Blitz
 
 ### Link to Video Pitch 📹
 **...point us to where you tell us about your solution 😄**
